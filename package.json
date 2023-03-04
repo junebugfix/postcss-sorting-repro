@@ -1,0 +1,14 @@
+{
+  "name": "postcss-sorting-repro",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "sort": "postcss --no-map --replace styles.sass"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-sass": "^0.5.0",
+    "postcss-sorting": "^8.0.1"
+  }
+}
